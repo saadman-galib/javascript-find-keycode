@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: center;
     background-color: #1d1128;
+    overflow: hidden;
 }
 
 #keycode p {
