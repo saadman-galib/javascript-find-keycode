@@ -8,5 +8,6 @@ window.addEventListener("keydown", function (e) {
     } else {
         keyCode.innerHTML = `<p>${e.keyCode}</p>`;
         key.innerHTML = `<p>${e.key}</p>`;
+        e.preventDefault();
     }
 });
